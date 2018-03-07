@@ -1,0 +1,59 @@
+Order ID,Order Date,Order Priority,"Order
+Quantity",Sales,Discount,Ship Mode,Profit,Unit Price,Shipping Cost,CustID,Customer Segment,Prod ID,"Product
+Base Margin",Ship Date
+32325,11/1/2012,Critical,45,1103.73,0,Regular Air,189.28,22.98,7.58,Cust043,Corporate,P0620,0.51,11/2/2012
+38529,2/2/2009,Low,38,44.85,0.02,Regular Air,-0.49,1.14,0.7,Cust043,Corporate,P1153,0.38,2/2/2009
+27750,10/19/2012,Low,12,769.17,0,Delivery Truck,-212.01,58.14,36.61,Cust064,Small Business,P0127,0.61,10/23/2012
+27750,10/19/2012,Low,18,7370.84,0.09,Delivery Truck,999.87,449.99,49,Cust064,"Small
+Business",P0027,0.38,10/19/2012
+32165,10/14/2012,Not Specified,47,3413.69,0.06,Regular Air,175.24,73.98,14.52,Cust064,Small Business,P0641,0.65,10/16/2012
+32165,10/14/2012,Not Specified,38,2939.6825,0.02,Regular Air,192.06,85.99,0.99,Cust064,Small Business,P0056,0.85,10/15/2012
+36773,9/23/2010,Not Specified,24,2048.78,0.05,Regular Air,994.68,83.98,5.01,Cust064,Small Business,P0741,0.38,9/25/2010
+46533,10/7/2009,High,3,215.24,0.04,Regular Air,49.76,55.5,52.2,Cust064,"Small
+Business",P0299,0.72,10/8/2009
+46533,10/7/2009,High,12,654.874,0.1,Express Air,-82.06,65.99,3.99,Cust064,Small Business,P0441,0.59,10/9/2009
+34311,9/5/2009,High,39,132.79,0.05,Regular Air,-100.24,3.28,3.97,Cust083,Corporate,P0430,0.56,9/6/2009
+34311,9/5/2009,High,32,232.85,0.03,Regular Air,-262.62,6.98,9.69,Cust083,Corporate,P0968,0.83,9/7/2009
+35173,3/13/2012,Not Specified,29,6483.26,0.09,Delivery Truck,341.98,240.98,60.2,Cust083,Corporate,P0887,0.56,3/15/2012
+35173,3/13/2012,Not Specified,13,1446.207,0.02,Regular Air,29.56,125.99,8.08,Cust083,Corporate,P0163,0.57,3/15/2012
+33479,9/18/2012,Critical,50,762.2,0.07,Regular Air,16.57,15.01,8.4,Cust087,"Home
+Office",P0319,0.39,9/20/2012
+33479,9/18/2012,Critical,27,235.45,0.06,Regular Air,-8.82,8.56,5.16,Cust087,Home Office,P1228,0.38,9/20/2012
+40162,1/24/2010,Critical,28,1581.23,0.03,"Regular
+Air",760.79,55.98,5.15,Cust087,Home Office,P0885,0.36,1/26/2010
+48673,4/26/2012,Not Specified,36,570.14,0.03,Regular Air,-90.72,15.31,8.78,Cust087,Home Office,P0582,0.57,4/27/2012
+7654,2/10/2010,High,3,19.47,0.06,Regular Air,-14.29,4.13,6.89,Cust091,Small Business,P0919,0.39,2/12/2010
+8768,8/18/2011,High,44,2422.4405,0.03,Regular Air,568.18,65.99,5.31,Cust091,Small Business,P0306,0.57,8/19/2011
+14176,3/12/2009,Low,39,1233.4775,0.01,Regular Air,453.8,35.99,5.99,Cust091,"Small
+Business",P0703,0.38,3/19/2009
+15104,3/29/2012,Medium,23,109.43,0.09,Regular Air,21.77,4.82,1.49,Cust091,Small Business,P0747,0.36,4/1/2012
+17445,8/21/2011,Not Specified,33,249.48,0.1,Regular Air,-73.83,8.32,2.38,Cust091,Small Business,P1113,0.74,8/24/2011
+23328,9/15/2010,High,39,5740.32,0.03,Delivery Truck,1285.74,145.45,17.85,Cust091,Small Business,P0128,0.56,9/16/2010
+26054,2/12/2010,Critical,47,396.78,0.09,Regular Air,-321.21,8.37,10.16,Cust091,Small Business,P0736,0.59,2/14/2010
+46023,3/24/2012,Not Specified,50,1101.76,0.07,Regular Air,-204.22,21.66,13.99,Cust091,Small Business,P0117,0.52,3/25/2012
+358,9/19/2010,High,33,1640.9,0.02,Delivery Truck,-1348.06,48.58,54.11,Cust092,Corporate,P0134,0.69,9/21/2010
+358,9/19/2010,High,33,1235.87,0.07,Regular Air,269.27,39.48,1.99,Cust092,Corporate,P0065,0.54,9/19/2010
+7078,4/11/2010,High,9,112.12,0.01,Regular Air,-8.45,11.33,6.12,Cust092,Corporate,P0878,0.42,4/13/2010
+7078,4/11/2010,High,11,49.58,0.1,Express Air,-47.02,3.36,6.27,Cust092,Corporate,P0286,0.4,4/12/2010
+7078,4/11/2010,High,16,1939.65,0.05,Delivery Truck,-885.73,122.99,70.2,Cust092,Corporate,P0302,0.74,4/13/2010
+7078,4/11/2010,High,29,465.52,0.02,Express Air,65.35,14.98,8.99,Cust092,Corporate,P0215,0.39,4/12/2010
+22787,4/5/2011,Medium,35,46.44,0.06,Express Air,-16.3,1.26,0.7,Cust092,Corporate,P0231,0.81,4/5/2011
+1767,3/13/2011,High,10,46.34,0.05,Regular Air,-7.76,4.71,0.7,Cust094,Corporate,P0446,0.8,3/15/2011
+24260,10/3/2010,Not Specified,48,548.3,0.09,Express Air,-47.92,11.97,4.98,Cust094,Corporate,P0299,0.58,10/4/2010
+7746,12/5/2010,Medium,1,28.96,0.06,Regular Air,-27.07,19.98,8.68,Cust095,Consumer,P0299,0.37,12/7/2010
+20743,12/15/2011,High,39,231.21,0,Express Air,-179.96,5.28,8.16,Cust095,Consumer,P0299,0.4,12/16/2011
+21862,9/12/2010,"Not
+Specified",1,28.75,0.09,Express Air,-14.35,14.27,7.27,Cust095,Consumer,P0299,0.38,9/12/2010
+21862,9/12/2010,Not Specified,4,19014.24,0.06,Regular Air,-10263.66,6783.02,24.49,Cust095,Consumer,P0299,0.39,9/14/2010
+21862,9/12/2010,Not Specified,46,385.05,0,Regular Air,56.75,8.14,3.12,Cust095,Consumer,P0299,0.45,9/13/2010
+33189,11/20/2009,Low,3,87.21,0.02,Regular Air,-96.54,27.48,4,Cust095,Consumer,P0299,0.75,11/27/2009
+33189,11/20/2009,Low,5,50.19,0.08,Regular Air,0.15,10.06,2.06,Cust095,Consumer,P0299,0.39,11/24/2009
+45284,1/7/2012,High,7,91.43,0,Regular Air,-42.98,11.66,8.99,Cust095,Consumer,P0299,0.59,1/8/2012
+48742,4/17/2012,Not Specified,42,825.63,0.03,Regular Air,379.74,18.94,1.49,Cust095,Consumer,P0299,0.35,4/19/2012
+27872,10/13/2011,Not Specified,25,388.71,0.01,Regular Air,36.43,14.27,7.27,Cust103,Corporate,P0299,0.38,10/15/2011
+32931,2/15/2010,Low,31,86.1,0.06,Regular Air,32.7,2.88,0.5,Cust103,Corporate,P0299,0.36,2/22/2010
+32931,2/15/2010,Low,25,298.11,0.08,Regular Air,-60.79,12.44,6.27,Cust103,Corporate,P0441,0.57,2/20/2010
+37700,12/8/2009,Critical,27,3390.51,0.05,Express Air,1169.71,122.99,19.99,Cust103,Corporate,P0430,0.37,12/11/2009
+40612,2/28/2011,High,9,19.2,0.1,Regular Air,-6.84,2.21,1.12,Cust103,Corporate,P0968,0.58,3/1/2011
+41987,10/21/2011,Not Specified,25,6481.048,0.05,Delivery Truck,1760.11,320.64,29.2,Cust103,Corporate,P0887,0.66,10/22/2011
+44005,9/3/2010,Medium,7,733.36,0.02,Regular Air,-270.48,99.99,19.99,Cust103,Corporate,P0887,0.52,9/4/2010
