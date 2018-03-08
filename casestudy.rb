@@ -20,38 +20,46 @@ puts dataArray
 custArray = Array.new
 custID = ""
 innercustID = ""
+salesHash = Hash.new
+i = 0
+
+CSV.foreach('Customers.csv', { encoding: "UTF-8", headers: true, header_converters: :symbol, converters: :all}) do |row|
+    amount = 0
+    i = i + 1
+    custID = row[10]
+
+    if custArray.include?(custID) == false then
+
+	    amount = amount + row[4].to_f
+	    j = 0
+	    CSV.foreach('Customers.csv', { encoding: "UTF-8", headers: true, header_converters: :symbol, converters: :all}) do |innerrow|
+
+		j = j+1
+		innercustID = innerrow[10]
+
+		if innercustID == custID then
+			if i != j then
+				amount = amount + innerrow[4].to_f
+			end
+		end
+	    end 	
+
+	    salesHash[custID] = amount
+   	    custArray << custID
+	end
+end 
+
+#salesHash.each {|key, value| puts "Amount of #{key} is #{value}"}
 
 CSV.open('output.csv', 'w') do |csv|
-	csv << ['customerID', 'total sales', 'rank']
-	i = 0
-	
-	CSV.foreach('Customers.csv', { encoding: "UTF-8", headers: true, header_converters: :symbol, converters: :all}) do |row|
-	    amount = 0
-	    i = i + 1
-	    custID = row[10]
-	    
-	    
-	    if custArray.include?(custID) == false then
-		   
-		    amount = amount + row[4].to_f
-		    j = 0
-		    CSV.foreach('Customers.csv', { encoding: "UTF-8", headers: true, header_converters: :symbol, converters: :all}) do |innerrow|
-			
-			j = j+1
-			innercustID = innerrow[10]
-			
-			if innercustID == custID then
-				if i != j then
-					amount = amount + innerrow[4].to_f
-				end
-			end
-		    end 	
+csv << ['customerID', 'total sales', 'rank']
 
-		    puts "Customer id ==> #{custID} and total amount = #{amount}"
-		    csv << [custID, amount, i]
+	newsalesHash = salesHash.sort_by{|key, value| value}.reverse.to_h
+	k = 1
+	newsalesHash.each do |key, value| 
+		csv << [key, value, k]
+		k = k +1
+	end
 
-		    custArray << custID
-		end
-	end   
 end
 
